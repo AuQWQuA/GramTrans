@@ -1,0 +1,29 @@
+{
+  "terminals": [
+    "a",
+    "b",
+    "d"
+  ],
+  "nonterminals": [
+    "A"
+  ],
+  "start_symbol": "A",
+  "productions": [
+    {
+      "id": "1",
+      "left": "A",
+      "right": [
+        "b",
+        "a"
+      ]
+    },
+    {
+      "id": "2",
+      "left": "A",
+      "right": [
+        "d",
+        "a"
+      ]
+    }
+  ]
+}

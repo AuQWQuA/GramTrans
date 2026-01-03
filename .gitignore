@@ -1,0 +1,14 @@
+DSL_experiment/models/*
+!DSL_experiment/models/.gitkeep
+Python_Java_experiment/models/*
+!Python_Java_experiment/models/.gitkeep
+upload.ipynb
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

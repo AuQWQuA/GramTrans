@@ -1,0 +1,9 @@
+{
+  "terminals": ["a", "b", "d"],
+  "nonterminals": ["A"],
+  "start_symbol": "A",
+  "productions": [
+    {"id": "1", "left": "A", "right": ["a", "b"]},
+    {"id": "2", "left": "A", "right": ["a", "d"]}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "grammars": [
+    {
+      "name": "pymbhell1",
+      "camelcase": "Pymbhell1",
+      "scope": "source.pymbhell1",
+      "file-types": [
+        ".pymbhell1"
+      ],
+      "injection-regex": "^pymbhell1$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Pymbhell1 grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "zz"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-pymbhell1"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}

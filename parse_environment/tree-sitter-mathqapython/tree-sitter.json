@@ -1,0 +1,34 @@
+{
+  "grammars": [
+    {
+      "name": "mathqapython",
+      "camelcase": "Mathqapython",
+      "scope": "source.mathqapython",
+      "file-types": [
+        ".mathqapython"
+      ],
+      "injection-regex": "^mathqapython$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Mathqapython grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "zz"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-mathqapython"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}

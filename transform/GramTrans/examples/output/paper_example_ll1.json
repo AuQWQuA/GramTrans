@@ -1,0 +1,85 @@
+{
+  "terminals": [
+    "a",
+    "b",
+    "d",
+    "e",
+    "f",
+    "g",
+    "new_term_3",
+    "ε"
+  ],
+  "nonterminals": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "start_symbol": "A",
+  "productions": [
+    {
+      "id": "1",
+      "left": "A",
+      "right": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "2",
+      "left": "A",
+      "right": [
+        "d",
+        "a"
+      ]
+    },
+    {
+      "id": "3",
+      "left": "A",
+      "right": [
+        "e",
+        "C"
+      ]
+    },
+    {
+      "id": "6",
+      "left": "C",
+      "right": [
+        "f",
+        "a"
+      ]
+    },
+    {
+      "id": "4",
+      "left": "B",
+      "right": [
+        "new_term_3",
+        "A",
+        "d"
+      ]
+    },
+    {
+      "id": "5",
+      "left": "B",
+      "right": [
+        "g",
+        "A"
+      ]
+    },
+    {
+      "id": "7",
+      "left": "D",
+      "right": [
+        "b",
+        "D"
+      ]
+    },
+    {
+      "id": "8",
+      "left": "D",
+      "right": [
+        "ε"
+      ]
+    }
+  ]
+}

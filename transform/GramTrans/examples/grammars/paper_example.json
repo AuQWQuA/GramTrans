@@ -1,0 +1,15 @@
+{
+  "terminals": ["a", "b", "d", "e", "f", "g", "ε"],
+  "nonterminals": ["A", "B", "C", "D"],
+  "start_symbol": "A",
+  "productions": [
+    {"id": "1", "left": "A", "right": ["a", "b"]},
+    {"id": "2", "left": "A", "right": ["a", "d"]},
+    {"id": "3", "left": "A", "right": ["C", "e"]},
+    {"id": "6", "left": "C", "right": ["a", "f"]},
+    {"id": "4", "left": "B", "right": ["A", "d"]},
+    {"id": "5", "left": "B", "right": ["A", "g"]},
+    {"id": "7", "left": "D", "right": ["D", "b"]},
+    {"id": "8", "left": "D", "right": ["ε"]}
+  ]
+}
